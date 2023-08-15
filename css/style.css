@@ -1,0 +1,575 @@
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ds1 {
+  width: 317px;
+  position: relative;
+  top: 22px;
+  left: -5px;
+}
+
+.desphoto1::before {
+  content: "";
+  position: absolute;
+  width: 316px;
+  height: 183px;
+
+  border: 1px solid white;
+}
+
+.design1 {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.desphoto2::before {
+  content: "";
+  position: absolute;
+  width: 316px;
+  height: 183px;
+
+  border: 1px solid white;
+}
+
+.design2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.design3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.photosrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-left: 1px;
+}
+
+.mk {
+  width: 300px;
+  height: 170px;
+}
+
+.mn {
+  width: 264px;
+}
+
+.service {
+  padding: 20px;
+  background: #565656;
+}
+
+.homn {
+  color: aqua;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.designbox {
+  background-image: url("../img/Rectangle\ 3.png");
+  height: 440px;
+  width: 80vw;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+  background-position: center;
+  z-index: 2;
+  top: -28vh;
+}
+
+.netw {
+  position: absolute;
+  margin-top: 30px;
+}
+
+header {
+  background-color: black;
+  height: 40vh;
+}
+
+.headlink {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 10px;
+}
+
+.headlink2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 10px;
+}
+
+.headlinkmob {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btnaz {
+  border: none;
+}
+
+a {
+  color: antiquewhite;
+}
+
+footer {
+  background-color: rgba(159, 181, 118, 1);
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.linesfoter {
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+.numberrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  color: antiquewhite;
+}
+
+.MobilMenu {
+  display: none;
+}
+
+.showMobilmenu {
+  display: block !important;
+  position: relative;
+  inset: 0;
+  padding: 30px;
+  z-index: 9;
+  background: rebeccapurple;
+}
+
+.close {
+  color: antiquewhite;
+}
+
+.btn2 {
+  display: flex !important;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.inpboxded {
+  border: 1px solid white;
+  width: 600px;
+  height: 130px;
+  padding: 30px;
+  margin: auto;
+}
+
+.name {
+  height: 30px;
+  background-color: #565656;
+  color: white;
+}
+
+.inpsrows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.sizecardsrows1 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sizecardsrows2 {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.iconrowsfoter {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 20px;
+  color: antiquewhite;
+}
+
+.a {
+  background-color: #565656;
+}
+
+.olc {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.size1cards {
+  color: antiquewhite;
+}
+
+h3 {
+  text-align: center;
+  font-size: 33px;
+  margin-top: 21px;
+  color: white;
+}
+
+.project {
+  margin-top: 20px;
+  font-size: 17px;
+}
+.linsd {
+  border: 1px solid;
+  width: 100px;
+  margin-top: 10px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.btncontact {
+  position: relative;
+  width: 126px;
+  height: 36px;
+  background-color: rgba(159, 181, 118, 1);
+}
+
+.btncontact::before {
+  content: "";
+  position: absolute;
+  width: 136px;
+  height: 36px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+}
+
+.txt1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.txt2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.btncontact4 {
+  position: relative;
+  width: 126px;
+  height: 36px;
+  background-color: rgba(159, 181, 118, 1);
+}
+
+.btncontact4::before {
+  content: "";
+  position: absolute;
+  width: 136px;
+  height: 36px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+}
+
+.btncontact2 {
+  position: relative;
+  width: 126px;
+  height: 36px;
+  background-color: rgba(159, 181, 118, 1);
+}
+
+.btncontact3 {
+  position: relative;
+  width: 126px;
+  height: 36px;
+  background-color: rgba(159, 181, 118, 1);
+}
+
+.barsd {
+  display: none;
+}
+
+.btncontact2::before {
+  content: "";
+  position: absolute;
+  width: 136px;
+  height: 36px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+}
+
+.netw {
+  position: absolute;
+  top: 65px;
+  left: 300px;
+}
+
+.btnbox2 {
+  position: absolute;
+  top: 323px;
+  left: 303px;
+}
+
+.btnbox3 {
+  position: absolute;
+  top: 323px;
+  left: 303px;
+}
+
+.deisgn2 {
+  width: 700px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .design1 {
+    display: flex;
+    flex-direction: column !important;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+.design2{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  justify-content: center;
+  width: 100%;
+}
+.linsd{
+  margin: auto;
+}
+
+.sizecardsrows2{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.photosrow{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.btncontact{
+  width: 100%;
+}
+
+
+.btncontact::before{
+  width: 100%;
+}
+
+.name{
+  width: 100%;
+}
+.inpboxded{
+  height: 200px;
+}
+
+.inpsrows{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mk{
+  width: 100%;
+}
+
+.mn{
+  width: 100%;
+}
+
+
+
+.sizecardsrows1{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.design3{
+  display: flex;
+  flex-direction: column !important;
+  gap: 25px;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.btncontact4{
+  width: 100%;
+}
+
+
+.btncontact4::before{
+  width: 100%;
+}
+
+
+
+
+  h5{
+    text-align: center;
+  }
+
+  .a {
+    width: 100%;
+  }
+
+  .headlink {
+    display: none;
+  }
+
+  .barsd {
+    display: block !important;
+    color: antiquewhite;
+  }
+  .btn {
+    display: none;
+  }
+
+  .btn2 {
+    display: block;
+  }
+  .headlink2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .numberrows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .iconrowsfoter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .designbox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+}
